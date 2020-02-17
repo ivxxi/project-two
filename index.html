@@ -102,5 +102,88 @@
 </div>
 </div>
 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            var day = $("#day");
+            var gender = $("#gender");
+            if (day.val() == "" && gender.val()=="") {
+
+                alert("child can be named Kwandwo");
+                return false;
+            }
+            if (day.val() == "" && gender.val()=="1") {
+
+                alert("child can be named Adwoa");
+                return false;
+            }
+            if (day.val() == "1" && gender.val()=="") {
+
+                alert("child can be named Kwabena");
+                return false;
+            }
+            if (day.val() == "1"  && gender.val()=="1") {
+
+                alert("child can be named Abenaa");
+                return false;
+            }
+            if (day.val() == "2" && gender.val()=="") {
+
+                alert("child can be named Kwaku");
+                return false;
+            }
+            if (day.val() == "2"  && gender.val()=="1") {
+
+                alert("child can be named Akua");
+                return false;
+            }
+            if (day.val() == "3" && gender.val()=="") {
+
+                alert("child can be named Yaw");
+                return false;
+            }
+            if (day.val() == "3"  && gender.val()=="1") {
+
+                alert("child can be named Yaa");
+                return false;
+            }
+            if (day.val() == "4" && gender.val()=="") {
+
+                alert("child can be named Kofi");
+                return false;
+
+            }
+            if (day.val() == "4"  && gender.val()=="1") {
+
+                alert("child can be named Afua");
+                return false;
+            }
+            if (day.val() == "5" && gender.val()=="") {
+
+                alert("child can be named crystal");
+                return false;
+            }
+            if (day.val() == "5"  && gender.val()=="1") {
+
+                alert("child can be named crystal");
+                return false;
+            }
+            if (day.val() == "6" && gender.val()=="") {
+
+                alert("child can be named Kwasi");
+                return false;
+            }
+            if (day.val() == "6"  && gender.val()=="1") {
+
+                alert("child can be named Akosua");
+                return false;
+            }
+            return true;
+        });
+    });
+</script>
+
 </body>
 </html>
